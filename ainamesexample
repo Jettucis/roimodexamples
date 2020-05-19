@@ -1,0 +1,16 @@
+{
+  "type": "ProjectAutomata.AiPlayerNameList",
+  "object": {
+    "name": "nameOfFile", 
+    "displayName": "displayName", // Display name in the menu
+    "uiOrder": 4,
+    "suffixes": [ // Second part of the company name
+      "LLC",
+      "IC" // and so on
+    ],
+    "names": [ // First part of the company name
+      "company1",
+      "company2" // and so on
+    ]
+  }
+}
