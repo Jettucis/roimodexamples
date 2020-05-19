@@ -1,0 +1,12 @@
+{
+  "type": "ProjectAutomata.SettlementNameList",
+  "object": {
+    "name": "nameOfTheFile", // Name of the file
+    "displayName": "DisplayName", // Text that appears on the selection menu when creating new game
+    "uiOrder": 500,
+    "names": [
+      "Cityname",
+      "AnotherCityName" // And so on
+    ]
+  }
+}
