@@ -1,0 +1,21 @@
+{
+  "type": "ProjectAutomata.TechTreeRecipeUnlock",
+  "object": {
+    "svgIcon": "exIcon",
+    "name": "nameEx",
+    "displayName": "Example",
+    "description": "Able to produce Example at Specified Building.",
+    "requiredUnlocks": [ "Product1", "Product2", "Product2" ],
+    "includedUnlocks": [ "ExampleBuilding" ],
+    "researchCost": "Research Cost",
+    "researchTime": "Research Time",
+    "tier": 3, // Location on tech tree (row)
+    "trees": [ // tech tree that you want your product to be in and the location of it in the tree (column)
+      {
+        "tree": "ExampleTechTree", 
+        "column": 4 
+      }
+    ],
+    "recipes": [ "nameEx" ]
+  }
+}
