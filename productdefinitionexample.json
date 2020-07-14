@@ -1,0 +1,13 @@
+{
+  "type": "ProjectAutomata.ProductDefinition",
+  "object": {
+    "category": "Row2", // Depends on the purpose of product and the price you want to give it. 
+    "disableContracts": false, // You can change the value to true if you don't want the product to be used in contracts.
+    "displayName": "ExampleProduct", // The name you'll see ingame
+    "isEndgameProduct": false, // Is endgame product?
+    "name": "example", // Name of the product definition
+    "priceFormula": "Factories", // price formula, can be looked up in Asset Viewer.
+    "svgIcon": "exIcon", // Icon of the product.
+    "tags": ["tag1","tag2"] // If any tags are required you can add them here
+  }
+}
