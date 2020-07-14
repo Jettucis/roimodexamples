@@ -1,0 +1,10 @@
+{
+  "type": "ProjectAutomata.TechTree",
+  "object": {
+    "category": "Heavy Industry", // Category under which your tree will be
+    "displayName": "ExampleProduct",
+    "name": "MyTechTree", // Used in TechTreeRecipeUnlock
+    "svgIcon": "techTreeIcon",
+    "uiOrder": "4000" // Depends how many trees are under the category if 3, then your tree has to be in 4th or uiOrder 4000, if 5th then 5000 and so on.
+  }
+}
