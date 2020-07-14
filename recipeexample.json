@@ -1,0 +1,30 @@
+{
+  "type": "ProjectAutomata.Recipe",
+  "object": {
+    "name": "nameEx",
+    "displayName": "Example",
+    "description": "Description of the product",
+    "svgIcon": "exIcon",
+    "gameDays": 180, // Game days for the one cycle of production
+    "ingredients": [ // All the products that are used to manufacture result product
+      {
+        "productName": "product1",
+        "amount": 2
+      },
+      {
+        "productName": "product2",
+        "amount": 3
+      },
+      {
+        "productName": "product3",
+        "amount": 2
+      }
+    ],
+    "result": [
+      {
+        "productName": "nameEx",
+        "amount": 1
+      }
+    ]
+  }
+}
